@@ -1,7 +1,8 @@
 public class BowlingGame {
 
     public int getBowlingScore(String bowlingCode) {
-		char[] chars = bowlingGrade.toCharArray(); 
+        
+		char[] chars = bowlingCode.toCharArray(); 
         int i = 0;
         int j = -1;
         int sum = 0;
